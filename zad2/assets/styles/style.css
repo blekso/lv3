@@ -65,13 +65,14 @@ html {
   color:white;
 }
 
-.maleCard .card{
-  display:absolute;
-  z-index: 2;
-  margin-bottom: -200px;
+.maleCard{
+  position: absolute;
+  z-index: 5;
 }
 
-.femaleCard .card{
-  z-index: -2;
-  margin-right: 100px;
+.femaleCard{
+  position: absolute;
+  left: 230px;
+  top: 150px;
 }
+
